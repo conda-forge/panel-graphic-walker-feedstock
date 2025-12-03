@@ -1,5 +1,5 @@
 {% set name = "panel-graphic-walker" %}
-{% set version = "0.6.4" %}
+{% set version = "0.6.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/panel_graphic_walker/panel_graphic_walker-{{ version }}.tar.gz
-  sha256: 0881df1300e17a63ada0c6689f57ddb3f435c84576278a0f6092ed1239dee9ad
+  sha256: ae89a4a22f2db53b0bc48a2c86b95813277e3209b73b39edd306a0c8d2dc9cb7
 
 build:
   noarch: python
